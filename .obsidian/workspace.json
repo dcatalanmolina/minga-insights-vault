@@ -1,0 +1,282 @@
+{
+  "main": {
+    "id": "8265ef66afb71374",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce5ad01a008319f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e677b068adeda398",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/insights/INS-0001.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "INS-0001"
+            }
+          },
+          {
+            "id": "3eb8e989a4751234",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Projects/Project A/Project A - Insight Canvas.canvas",
+                "viewState": {
+                  "x": 2149.8183140877413,
+                  "y": 37.11133056143645,
+                  "zoom": -1.2295533967907022
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Project A - Insight Canvas"
+            }
+          },
+          {
+            "id": "015b1897d0ea662b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGENTS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AGENTS"
+            }
+          },
+          {
+            "id": "6593b9ccaf90df8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ca8a287c22c8cef7",
+    "type": "split",
+    "children": [
+      {
+        "id": "608882855b2fdfb0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8fa07a36ca5d1a1d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8a5405243cc008d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "83d79e5f04e96b88",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "c231c060b47b3474",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad7a8eced8231dc6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4753be1cd36f1ea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for README"
+            }
+          },
+          {
+            "id": "41ae3301655adc8d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from README"
+            }
+          },
+          {
+            "id": "6a26f523ce09074a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7236ed7632222509",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "ae27011366601831",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "quadro:Quadro: Assign code to paragraph": false,
+      "quadro:Quadro: Rename code": false,
+      "quadro:Quadro: Remove code from paragraph": false,
+      "quadro:Quadro: Delete Code File and all references to it": false,
+      "quadro:Quadro: Merge another Code File into current Code File": false,
+      "quadro:Quadro: Bulk create new Code Files": false,
+      "quadro:Quadro: Show code overview": false,
+      "quadro:Quadro: Extract from paragraph": false,
+      "quadro:Quadro: Add paragraph as source to existing Extraction File": false,
+      "quadro:Quadro: Merge another Extraction File into current Extraction File": false,
+      "quadro:Quadro: Create new Extraction Type": false,
+      "quadro:Quadro: Export all extractions as .csv": false,
+      "quadro:Quadro: Show extraction type overview": false,
+      "quadro:Quadro: Open random unread Data File": false,
+      "quadro:Quadro: Show data analysis progress file": false,
+      "quadro:Quadro: Mark current Data File as read": false
+    }
+  },
+  "active": "6593b9ccaf90df8a",
+  "lastOpenFiles": [
+    "AGENTS.md",
+    "README.md",
+    "untitled folder",
+    "Projects/Project A/Project A - Overview.md",
+    "Projects/Project A/Project A - Insight Canvas.canvas",
+    "Decisions/Strategy Canvas.canvas",
+    "Data/DAT-0002.md",
+    "Decisions/DCN-0001.md",
+    "Global Notes/My Notes.md",
+    "Data/DAT-0001.md",
+    "Data/DAT-0003.md",
+    "Data/DAT-0004.md",
+    "Codes/CDE-0002.md",
+    "Codes/CDE-0001.md",
+    "Data/Analysis Tracker.base",
+    "Analysis/insights/INS-0001.md",
+    "Project A.md",
+    "Global Notes",
+    "Global notes/My Notes.md",
+    "Global notes",
+    "Global-notes/My Notes.md",
+    "data/Analysis Tracker.base",
+    "analysis/insights/INS-0001.md",
+    "projects/project-a/Project A - Overview.md",
+    "Analysis/Insights/As a (role) I need a way to (achieve goal) in order to (fulfill underlying motivation).md",
+    "Analysis/Analysis Tracker.base",
+    "Analysis/progress.json",
+    "Analysis/Insights",
+    "Projects/Project A",
+    "Projects"
+  ]
+}

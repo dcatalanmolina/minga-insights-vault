@@ -1,0 +1,15 @@
+{
+	"id": "quadro",
+	"name": "Quadro",
+	"description": "Qualitative Data Analysis (QDA) for social scientists. An open alternative to `MAXQDA` and `atlas.ti`, using Markdown to store data and research codes.",
+	"version": "1.27.13",
+	"minAppVersion": "1.7.4",
+	"isDesktopOnly": false,
+	"author": "Chris Grieser (aka pseudometa)",
+	"fundingUrl": {
+		"Ko-Fi": "https://ko-fi.com/pseudometa",
+		"PayPal": "https://www.paypal.me/ChrisGrieser"
+	},
+	"authorUrl": "https://chris-grieser.de/",
+	"helpUrl": "https://github.com/chrisgrieser/obsidian-quadro#table-of-contents"
+}

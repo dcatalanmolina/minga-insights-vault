@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"93e986248e2e500f","x":-820,"y":-440,"width":540,"height":840,"type":"file","file":"Analysis/insights/INS-0001.md"},
+		{"id":"b4d30e36f28d986e","x":-820,"y":440,"width":1380,"height":240,"color":"5","type":"text","text":"Insights support decisions and strategy. Use this canvas to reflect on potential decisions, implications for strategy, and expected outcomes. A few different directions to reflect:\n\n- Reflect on what we need to make a high-quality decision (e.g., finding the right framing and question, agreeing on the type of evidence needed, or identifying assumptions that need to be tested)\n- Reflect on the future implications of a decision (e.g., changes to current strategies, expected outcomes, and potential risks)\n- Reflect on the observed effects of a past decision (e.g., trace positive and negative outcomes, side-effects, and other factors that contributed to observed effects)"},
+		{"id":"5d2f7b574da95e2c","x":-820,"y":720,"width":380,"height":80,"color":"6","type":"text","text":"**Making High-Quality Decisions**"},
+		{"id":"1f7c00e058beba88","x":-820,"y":820,"width":220,"height":160,"color":"3","type":"text","text":"*Individual and group notes*"},
+		{"id":"9d17baf16a6d3452","type":"text","text":"*Individual and group notes*","x":-770,"y":840,"width":220,"height":160,"color":"3"},
+		{"id":"011850ae097c36a0","type":"text","text":"*Individual and group notes*","x":-710,"y":860,"width":220,"height":160,"color":"3"},
+		{"id":"eab4bd788cf36ebb","type":"text","text":"*Individual and group notes*","x":-660,"y":900,"width":220,"height":160,"color":"3"},
+		{"id":"1ad3d986b882bb96","type":"text","text":"**Future Implications**","x":-320,"y":720,"width":380,"height":80,"color":"6"},
+		{"id":"81ccc8c398ed7317","type":"text","text":"*Individual and group notes*","x":-320,"y":820,"width":220,"height":160,"color":"3"},
+		{"id":"8bcb5283baac323e","type":"text","text":"*Individual and group notes*","x":-270,"y":840,"width":220,"height":160,"color":"3"},
+		{"id":"983e3c6593ae7d57","type":"text","text":"*Individual and group notes*","x":-210,"y":860,"width":220,"height":160,"color":"3"},
+		{"id":"ea6dcaa2cec69734","type":"text","text":"*Individual and group notes*","x":-160,"y":900,"width":220,"height":160,"color":"3"},
+		{"id":"82e42db3af8e9be5","type":"text","text":"**Effects of Past Decisions**","x":180,"y":720,"width":380,"height":80,"color":"6"},
+		{"id":"5a5c05e9827abe6e","type":"text","text":"*Individual and group notes*","x":180,"y":820,"width":220,"height":160,"color":"3"},
+		{"id":"1e235f04d5d79861","type":"text","text":"*Individual and group notes*","x":230,"y":840,"width":220,"height":160,"color":"3"},
+		{"id":"a24858dfb1e9869a","type":"text","text":"*Individual and group notes*","x":290,"y":860,"width":220,"height":160,"color":"3"},
+		{"id":"064e77d3406cf185","type":"text","text":"*Individual and group notes*","x":340,"y":900,"width":220,"height":160,"color":"3"},
+		{"id":"e886d9eee30e8892","x":100,"y":-410,"width":460,"height":780,"type":"file","file":"Decisions/DCN-0001.md"},
+		{"id":"ba76ee8b56b8034d","x":786,"y":-272,"width":250,"height":60,"type":"text","text":"Effect on Strategy A"},
+		{"id":"3a4c2cf696605e4b","x":786,"y":80,"width":250,"height":60,"type":"text","text":"Effect on Strategy B"}
+	],
+	"edges":[
+		{"id":"ac77ee8aac3f78d1","fromNode":"93e986248e2e500f","fromSide":"right","toNode":"e886d9eee30e8892","toSide":"left"},
+		{"id":"a4a2b792da73561d","fromNode":"e886d9eee30e8892","fromSide":"right","toNode":"ba76ee8b56b8034d","toSide":"left"},
+		{"id":"98fbfd8c59db63d7","fromNode":"e886d9eee30e8892","fromSide":"right","toNode":"3a4c2cf696605e4b","toSide":"left"}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"513a27d3a824112a","type":"file","file":"Data/DAT-0001.md","x":-560,"y":-560,"width":400,"height":400},
+		{"id":"10842d43d2f68487","type":"file","file":"Data/DAT-0002.md","x":-560,"y":-40,"width":400,"height":400},
+		{"id":"bcff226774dbb4e7","type":"file","file":"Codes/CDE-0001.md","x":150,"y":-280,"width":400,"height":400},
+		{"id":"47383a73406c33bf","type":"file","file":"Analysis/insights/INS-0001.md","x":1480,"y":-362,"width":520,"height":1042},
+		{"id":"06b660d128b3a6d0","type":"file","file":"Global Notes/My Notes.md","x":760,"y":280,"width":400,"height":400},
+		{"id":"a55f2c45ac1cb592","type":"text","text":"**Making Meaning of Insights with others in Product**","x":2200,"y":-147,"width":400,"height":134},
+		{"id":"178becbc7ede91ce","type":"text","text":"HOW DO OUR PRODUCTS/SERVICES HELP PEOPLE GET THIS JOB DONE?\n\n-  What we currently do.\n\n\n\n","x":2840,"y":-484,"width":620,"height":244,"color":"4"},
+		{"id":"d522023b5721b8ed","type":"text","text":"WHERE IS THE GAP?\n\n-  The gap between what we currently do and what what our users/customers need to get done.\n\n\n\n","x":2840,"y":120,"width":620,"height":244,"color":"2"}
+	],
+	"edges":[
+		{"id":"238a8b8becfb9574","fromNode":"513a27d3a824112a","fromSide":"right","toNode":"bcff226774dbb4e7","toSide":"left"},
+		{"id":"38a00e5fa532cebc","fromNode":"10842d43d2f68487","fromSide":"right","toNode":"bcff226774dbb4e7","toSide":"left"},
+		{"id":"35282a3003afe6be","fromNode":"bcff226774dbb4e7","fromSide":"right","toNode":"06b660d128b3a6d0","toSide":"left"},
+		{"id":"24b0eb86b9b62188","fromNode":"06b660d128b3a6d0","fromSide":"right","toNode":"47383a73406c33bf","toSide":"left"},
+		{"id":"110836aa3a6537b5","fromNode":"47383a73406c33bf","fromSide":"right","toNode":"a55f2c45ac1cb592","toSide":"left"},
+		{"id":"030a2e9f24f20fb3","fromNode":"a55f2c45ac1cb592","fromSide":"right","toNode":"178becbc7ede91ce","toSide":"left"},
+		{"id":"144274ddb90c5fdc","fromNode":"a55f2c45ac1cb592","fromSide":"right","toNode":"d522023b5721b8ed","toSide":"left"}
+	]
+}

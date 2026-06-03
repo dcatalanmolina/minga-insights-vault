@@ -1,0 +1,17 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "extraction-date": "datetime",
+    "merge-date": "datetime",
+    "extraction-source": "multitext",
+    "code description": "text",
+    "Interviewer": "multitext",
+    "Coder": "multitext",
+    "Date": "date",
+    "project": "text",
+    "insights": "multitext",
+    "Type": "multitext"
+  }
+}
