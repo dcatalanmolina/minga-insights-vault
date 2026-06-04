@@ -25,6 +25,12 @@
 - Use Obsidian and [Quadro](https://github.com/chrisgrieser/obsidian-quadro) (community plugin) to discover, write, and organize user and customer insights. Quadro allows you to code text from interviews, meeting notes, and other sources. 
 - The folder structure and conventions are harness-agnostic; you can use Claude Code, Codex, etc. The repo follows the [Agent Skill standard](https://agentskills.io/home) for portable skills and agents. 
 
+Get started by firing up your harness and giving it this instruction:
+
+```
+Review the README.md and invoke minga-host to help me get started
+```
+
 ## How to analyze and organize insights
 
 - Use the `Projects` folder to share an overview of the projects associated with data, insights, and decisions.
