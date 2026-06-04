@@ -17,6 +17,11 @@ Sub-agents are available in the `.agents/agents/` directory.
     <purpose>Helps the user identify bugs, scope new features, and manage the backlog via GitHub Issues</purpose>
     <invoke>Invoke when user wants to file a bug, scope a feature, or review the backlog</invoke>
   </subagent>
+  <subagent>
+    <name>peer-reviewer</name>
+    <purpose>Helps the user interpret data and draft insight files by asking questions, not providing answers</purpose>
+    <invoke>Invoke when user is forming an insight from observations or wants a structured review of a draft insight file</invoke>
+  </subagent>
 </available_subagents>
 ```
 
