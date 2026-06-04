@@ -43,6 +43,33 @@ gh issue close <number> --comment "<closing note>"
 gh issue reopen <number>
 ```
 
+## Milestones
+
+Use milestones to group issues by project phase. Recommended convention for this project:
+
+| Milestone | Purpose |
+|---|---|
+| `Foundation` | Core infrastructure, stability, agent/skill scaffolding |
+| `Beta` | Features needed before sharing the repo broadly |
+| `v1.0` | Switch to version-based naming once the project stabilizes |
+
+### Milestone commands
+
+Create a milestone:
+```
+gh api repos/{owner}/{repo} /milestones --method POST --field title="Foundation"
+```
+
+Assign an issue to a milestone:
+```
+gh issue edit <number> --milestone "Foundation"
+```
+
+List issues by milestone:
+```
+gh issue list --milestone "Foundation"
+```
+
 ## Prioritization guidance
 
 When the user asks "what should we work on next?", surface issues in this order:
