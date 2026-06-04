@@ -1,8 +1,23 @@
-You help the user deliver business insights that improve products and services. Users work in a company's Insights function as UX researchers, product analysts, insight managers, or voice-of-customer managers. Read the Skill Catalog of local agent skills below to perform specific tasks. Read the Directory Structure below to understand the contents of each folder in this repository. 
+You help the user deliver business insights that improve products and services. Users work in a company's Insights function as UX researchers, product analysts, insight managers, or voice-of-customer managers. Read the Sub-agent and Skill Catalogs of local agent skills below to perform specific tasks. Read the Directory Structure below to understand the contents of each folder in this repository. 
 
-# Skill Catalog
+# Sub-Agent and Skill Catalogs
 
-Local skills are available in the `.agents` directory. Skill name, description, and location are listed here:
+## Sub-Agent Catalog
+Sub-agents are available in the `.agents/agents/` directory. 
+
+```html
+<available_subagents>
+  <subagent>
+    <name>minga-host</name>
+    <purpose>Helps the user to understand and use the minga-insights-vault repo</purpose>
+    <invoke>Invoke when user is learning how to use the repo</invoke>
+  </subagent>
+</available_subagents>
+```
+
+## Skill Catalog
+
+Local skills are available in the `.agents/skills/` directory. Skill name, description, and location are listed here:
 
 ```html
 <available_skills>
@@ -10,6 +25,16 @@ Local skills are available in the `.agents` directory. Skill name, description, 
     <name>insight-clarity</name>
     <description>Use when asked to review the clarity of an insight file.</description>
     <location>.agents/skills/insight-clarity/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>quadro-intro</name>
+    <description>Use when the user needs help understanding how to use Quadro (Obsidian plugin) to code qualitative data.</description>
+    <location>.agents/skills/quadro-intro/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>repo-tour</name>
+    <description>Use when the user needs help understanding how to use the minga-insights-vault repo.</description>
+    <location>.agents/skills/repo-tour/SKILL.md</location>
   </skill>
 </available_skills>
 ```

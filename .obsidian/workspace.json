@@ -124,8 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c231c060b47b3474",
@@ -248,9 +247,11 @@
   },
   "active": "6593b9ccaf90df8a",
   "lastOpenFiles": [
-    "untitled folder",
+    "minga-host.md",
     "AGENTS.md",
     "README.md",
+    "LICENSE",
+    "untitled folder",
     "Projects/Project A/Project A - Overview.md",
     "Projects/Project A/Project A - Insight Canvas.canvas",
     "Decisions/Strategy Canvas.canvas",
@@ -276,7 +277,6 @@
     "Analysis/Analysis Tracker.base",
     "Analysis/progress.json",
     "Analysis/Insights",
-    "Projects/Project A",
-    "Projects"
+    "Projects/Project A"
   ]
 }
