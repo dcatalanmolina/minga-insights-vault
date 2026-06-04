@@ -12,6 +12,11 @@ Sub-agents are available in the `.agents/agents/` directory.
     <purpose>Helps the user to understand and use the minga-insights-vault repo</purpose>
     <invoke>Invoke when user is learning how to use the repo</invoke>
   </subagent>
+  <subagent>
+    <name>minga-pm</name>
+    <purpose>Helps the user identify bugs, scope new features, and manage the backlog via GitHub Issues</purpose>
+    <invoke>Invoke when user wants to file a bug, scope a feature, or review the backlog</invoke>
+  </subagent>
 </available_subagents>
 ```
 
