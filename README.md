@@ -28,7 +28,7 @@
 Get started by firing up your harness and giving it this instruction:
 
 ```
-Review the README.md and invoke minga-host to help me get started
+Review the AGENTS.md file and invoke minga-host to help me get started
 ```
 
 ## How to analyze and organize insights
