@@ -19,7 +19,6 @@
 
 ---
 
-<!-- TODO: one or two sentences on what the project is. -->
 `minga-insights-vault` is an open-source vault to gather insights, influence decisions, and track strategy, powered by collaboration-first agents.
 
 - Use Obsidian and [Quadro](https://github.com/chrisgrieser/obsidian-quadro) (community plugin) to discover, write, and organize user and customer insights. Quadro allows you to code text from interviews, meeting notes, and other sources. 
@@ -49,6 +48,11 @@ A *minga* is a tradition of communal labor and reciprocity from rural southern C
 ## Contributing
 
 Contributions are welcome — in the spirit of the minga. <!-- TODO: link CONTRIBUTING.md -->
+- If you have an idea for a collaboration-first agent, but don't know how to implement it, add a new issue describing its goals, principles, and skills. We can build it together.
+
+- If you find bugs or gaps in the file system or agent layer, add a new issue describing what doesn't work for you, why, and in what situation. The more gaps people report, the easier it will be to build something that scales.
+
+- If you want to contribute as an active developer building new features, let me know!
 
 ## License
 
