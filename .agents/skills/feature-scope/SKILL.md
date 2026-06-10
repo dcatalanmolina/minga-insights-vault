@@ -41,6 +41,9 @@ As a <role>, I want <capability> so that <outcome>.
 ## Open Questions
 <anything that needs to be decided before or during implementation>
 
+## References
+<links to articles, resources, or people's social profiles that inspired this feature>
+
 ## Related Issues / Context
 <links or references — if any>
 ```
