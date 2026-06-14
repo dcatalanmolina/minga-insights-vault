@@ -39,6 +39,8 @@ Review the AGENTS.md file and invoke minga-host to help me get started
 - Synthesize your analyses by writing insights in a format that makes product development easier. 
 - Create a new canvas in `Global Notes` to organize insights and to facilitate discussion with others.
 
+Learn more about the conventions to name files [here](docs/conventions.md).
+
 **Examples and step-by-step guides are in the works!**
 
 ## About the name

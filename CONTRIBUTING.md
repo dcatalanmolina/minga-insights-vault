@@ -31,7 +31,7 @@ This repo welcomes contributions from the community, in the spirit of a minga. W
 
 ## File and naming conventions
 
-Each file type uses a prefixed ID (e.g. `DAT-0001`, `INS-0002`). IDs are assigned sequentially — check the highest existing number before creating a new file. Full conventions are documented in `docs/file-naming-conventions.md`. *(Coming soon — tracked in #6.)*
+Each file type uses a prefixed ID (e.g. `DAT-0001`, `INS-0002`). IDs are assigned sequentially — check the highest existing number before creating a new file. Full conventions are documented in `docs/conventions.md`.
 
 ## What not to edit manually
 
