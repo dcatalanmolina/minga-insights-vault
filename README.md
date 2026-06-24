@@ -41,7 +41,7 @@ Review the AGENTS.md file and invoke minga-host to help me get started
 
 Learn more about the conventions to name files [here](docs/conventions.md).
 
-**Examples and step-by-step guides are in the works!**
+**New here?** Follow the [Getting Started](docs/getting-started.md) walkthrough for a step-by-step example.
 
 ## About the name
 
