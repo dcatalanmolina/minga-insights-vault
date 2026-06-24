@@ -39,6 +39,91 @@ Each file type uses a prefixed ID (e.g. `DAT-0001`, `INS-0002`). IDs are assigne
 - Agent and skill definitions in `.agents/` follow the [Agent Skill standard](https://agentskills.io/home). Read the standard before modifying them.
 - Data, insights, decisions, and project overview files in the main branch should represent generic examples. Avoid committing files or changes that reveal your team's data.
 
+## Contributing agents and skills
+
+The `.agents/` layer follows the [Agent Skill standard](https://agentskills.io/home). This section explains how to add a new sub-agent or skill and register it so harnesses can discover it.
+
+### Agent Skill standard fields used in this project
+
+Both agents and skills use YAML frontmatter with these fields:
+
+| Field | Required | Description |
+|---|---|---|
+| `name` | Yes | Kebab-case identifier (e.g., `peer-reviewer`) |
+| `description` | Yes | One-line summary of what the agent or skill does |
+| `skills` | Agents only | List of skill names the agent can invoke |
+
+### Adding a new skill
+
+1. Create a directory under `.agents/skills/` named after the skill (e.g., `.agents/skills/my-skill/`).
+2. Add a `SKILL.md` file inside it with frontmatter and instructions:
+
+```yaml
+---
+name: my-skill
+description: Use when the user wants to <do something specific>.
+---
+```
+
+Below the frontmatter, describe the skill's task, process steps, and any output format the skill should produce.
+
+3. Register the skill in `AGENTS.md` by adding an entry to the `<available_skills>` block:
+
+```xml
+<skill>
+  <name>my-skill</name>
+  <description>Use when the user wants to …</description>
+  <location>.agents/skills/my-skill/SKILL.md</location>
+</skill>
+```
+
+4. If an existing agent should invoke the skill, add the skill name to that agent's `skills:` list in its `.agents/agents/<agent>.md` file.
+
+### Adding a new sub-agent
+
+1. Create a file under `.agents/agents/` named `<agent-name>.md`.
+2. Add frontmatter and a behavior body:
+
+```yaml
+---
+name: my-agent
+description: Helps the user to <one-line purpose>
+skills:
+  - skill-a
+  - skill-b
+---
+
+Your goal is to <describe the agent's purpose and approach>.
+
+## Behavior
+- When the user does X, invoke the `skill-a` skill.
+- When the user does Y, invoke the `skill-b` skill.
+
+## Constraints
+- <Any guardrails the agent must follow.>
+```
+
+3. Register the agent in `AGENTS.md` by adding an entry to the `<available_subagents>` block:
+
+```xml
+<subagent>
+  <name>my-agent</name>
+  <purpose>Helps the user to …</purpose>
+  <invoke>Invoke when …</invoke>
+</subagent>
+```
+
+### Testing locally
+
+To test a new agent or skill, invoke it through your harness and verify:
+
+- The agent or skill is discovered (appears in the harness's available list).
+- Invoking the agent triggers the expected behavior and invokes the correct skills.
+- Skills produce output that matches their documented format.
+- Constraints hold — the agent refuses or redirects when it should.
+
+Test with at least one realistic prompt before opening a PR.
+
 ## Proposing changes
 
 Open a GitHub Issue for any non-trivial change — new doc topics, agent ideas, convention updates, or bugs. The backlog is at [github.com/dcatalanmolina/minga-insights-vault/issues](https://github.com/dcatalanmolina/minga-insights-vault/issues).
