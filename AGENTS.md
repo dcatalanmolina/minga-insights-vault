@@ -32,6 +32,26 @@ Local skills are available in the `.agents/skills/` directory. Skill name, descr
 ```html
 <available_skills>
   <skill>
+    <name>backlog-manage</name>
+    <description>Use when the user wants to review, prioritize, or update the project backlog.</description>
+    <location>.agents/skills/backlog-manage/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>bug-report</name>
+    <description>Use when the user describes a bug, unexpected behavior, or something broken in the project.</description>
+    <location>.agents/skills/bug-report/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>craft-insight</name>
+    <description>Use when asked for help to craft a new insight file.</description>
+    <location>.agents/skills/craft-insight/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>feature-scope</name>
+    <description>Use when the user wants to define or explore a new feature or capability for the project.</description>
+    <location>.agents/skills/feature-scope/SKILL.md</location>
+  </skill>
+  <skill>
     <name>insight-clarity</name>
     <description>Use when asked to review the clarity of an insight file.</description>
     <location>.agents/skills/insight-clarity/SKILL.md</location>
@@ -63,6 +83,7 @@ minga-insights-vault/     # top directory
   Decisions/              # files recording decisions supported by insights
   Global Notes/           # files with users' notes
   Projects/               # project descriptions and canvas
+  docs/                   # documentation: getting started, conventions, working with subagents
   
 ```
 
