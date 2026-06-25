@@ -133,6 +133,6 @@ project: "[[World Cup - Overview]]"
 
 ## What's next
 
-- **Refine your insight** — invoke the `peer-reviewer` agent to get Socratic feedback on your draft, or ask it to run a clarity review.
+- **Refine your insight** — invoke the `peer-reviewer` agent to get Socratic feedback on your draft, or ask it to run a clarity review. See [Working with Subagents](working-with-subagents.md) for a full example session.
 - **Manage the backlog** — invoke the `minga-pm` agent to file bugs, scope features, or triage open issues.
 - **Contribute** — read [CONTRIBUTING.md](../CONTRIBUTING.md) to learn how to add new agents, skills, or documentation.
