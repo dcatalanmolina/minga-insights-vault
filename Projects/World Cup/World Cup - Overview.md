@@ -1,0 +1,3 @@
+Project goal: Identify opportunities to engage fans in the US with the World Cup beyond the stadium.
+
+World Football Company is looking for opportunities to improve its brand with US consumers. WFC is not a World Cup sponsor, so it is looking to find other opportunities to engage with fans. The C-suite tasked the insights team to find gaps, needs, and opportunities based on how local governments and official sponsors are engaging with fans.

@@ -39,7 +39,9 @@ Review the AGENTS.md file and invoke minga-host to help me get started
 - Synthesize your analyses by writing insights in a format that makes product development easier. 
 - Create a new canvas in `Global Notes` to organize insights and to facilitate discussion with others.
 
-**Examples and step-by-step guides are in the works!**
+Learn more about the conventions to name files [here](docs/conventions.md).
+
+**New here?** Follow the [Getting Started](docs/getting-started.md) walkthrough for a step-by-step example.
 
 ## About the name
 
@@ -47,7 +49,7 @@ A *minga* is a tradition of communal labor and reciprocity from rural southern C
 
 ## Contributing
 
-Contributions are welcome — in the spirit of the minga. <!-- TODO: link CONTRIBUTING.md -->
+Contributions are welcome — in the spirit of the minga. See [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
 - If you have an idea for a collaboration-first agent, but don't know how to implement it, add a new issue describing its goals, principles, and skills. We can build it together.
 
 - If you find bugs or gaps in the file system or agent layer, add a new issue describing what doesn't work for you, why, and in what situation. The more gaps people report, the easier it will be to build something that scales.
