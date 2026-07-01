@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"a1b2c3d4e5f60001","type":"group","x":0,"y":-20,"width":1600,"height":220,"color":"5","label":"Researcher / Coder"},
+		{"id":"a1b2c3d4e5f60002","type":"group","x":0,"y":220,"width":1600,"height":220,"color":"6","label":"Insight Author"},
+		{"id":"a1b2c3d4e5f60003","type":"group","x":0,"y":460,"width":1600,"height":220,"color":"2","label":"Peer Reviewer"},
+		{"id":"a1b2c3d4e5f60004","type":"group","x":0,"y":700,"width":1600,"height":220,"color":"#4477aa","label":"Decision Maker"},
+		{"id":"a1b2c3d4e5f60010","type":"text","text":"**Start**\nNew data collected\n(interview, meeting, report)","x":40,"y":20,"width":260,"height":120,"color":"4"},
+		{"id":"a1b2c3d4e5f60011","type":"text","text":"**Save data**\n(user task)\n→ saved as DAT-####","x":340,"y":20,"width":260,"height":120},
+		{"id":"a1b2c3d4e5f60015","type":"text","text":"**Clarity verdict?**\n(exclusive gateway)","x":700,"y":500,"width":240,"height":120,"color":"3"},
+		{"id":"a1b2c3d4e5f60016","type":"text","text":"**Record decision**\n(user task)\n→ DCN-#### (links to INS-####)","x":340,"y":740,"width":320,"height":120},
+		{"id":"a1b2c3d4e5f60017","type":"text","text":"**End**\nDecision recorded","x":760,"y":740,"width":220,"height":120,"color":"1"},
+		{"id":"a1b2c3d4e5f60012","type":"text","text":"**Code data with Quadro**\n(user task)\n→ CDE-####","x":640,"y":20,"width":260,"height":120},
+		{"id":"a1b2c3d4e5f60013","type":"text","text":"**Draft insight**\n(user task — craft-insight skill)\n→ INS-####","x":340,"y":260,"width":280,"height":140},
+		{"id":"a1b2c3d4e5f60014","type":"text","text":"**Review clarity**\n(user task — insight-clarity skill)","x":340,"y":500,"width":280,"height":120},
+		{"id":"a1b2c3d4e5f60000","type":"text","text":"**BPMN Mapping Legend** (approximated in Obsidian Canvas — no native circle/diamond shapes)\n\n- Green node = Start event · Red node = End event · Yellow node = Gateway (decision point)\n- Uncolored node = Task\n- Large colored background = Lane (a role within this one process)\n- Arrows = sequence flow; edge labels = the condition for that branch\n\nExample: how a raw datum becomes a recorded decision in this vault.","x":20,"y":-300,"width":1600,"height":200}
+	],
+	"edges":[
+		{"id":"a1b2c3d4e5f60020","fromNode":"a1b2c3d4e5f60010","fromSide":"right","toNode":"a1b2c3d4e5f60011","toSide":"left"},
+		{"id":"a1b2c3d4e5f60021","fromNode":"a1b2c3d4e5f60011","fromSide":"right","toNode":"a1b2c3d4e5f60012","toSide":"left"},
+		{"id":"a1b2c3d4e5f60022","fromNode":"a1b2c3d4e5f60012","fromSide":"bottom","toNode":"a1b2c3d4e5f60013","toSide":"top"},
+		{"id":"a1b2c3d4e5f60023","fromNode":"a1b2c3d4e5f60013","fromSide":"bottom","toNode":"a1b2c3d4e5f60014","toSide":"top"},
+		{"id":"a1b2c3d4e5f60024","fromNode":"a1b2c3d4e5f60014","fromSide":"right","toNode":"a1b2c3d4e5f60015","toSide":"left"},
+		{"id":"a1b2c3d4e5f60025","fromNode":"a1b2c3d4e5f60015","fromSide":"bottom","toNode":"a1b2c3d4e5f60016","toSide":"top","label":"PASS"},
+		{"id":"a1b2c3d4e5f60026","fromNode":"a1b2c3d4e5f60015","fromSide":"left","toNode":"a1b2c3d4e5f60013","toSide":"right","label":"NEEDS WORK / REVISE"},
+		{"id":"a1b2c3d4e5f60027","fromNode":"a1b2c3d4e5f60016","fromSide":"right","toNode":"a1b2c3d4e5f60017","toSide":"left"}
+	]
+}

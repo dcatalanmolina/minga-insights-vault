@@ -47,6 +47,11 @@ Local skills are available in the `.agents/skills/` directory. Skill name, descr
     <location>.agents/skills/frame-workflow/SKILL.md</location>
   </skill>
   <skill>
+    <name>workflow-canvas</name>
+    <description>Use when the user has a confirmed workflow outline (from frame-workflow) and wants it turned into a visual diagram.</description>
+    <location>.agents/skills/workflow-canvas/SKILL.md</location>
+  </skill>
+  <skill>
     <name>backlog-manage</name>
     <description>Use when the user wants to review, prioritize, or update the project backlog.</description>
     <location>.agents/skills/backlog-manage/SKILL.md</location>
@@ -98,7 +103,8 @@ minga-insights-vault/     # top directory
   Decisions/              # files recording decisions supported by insights
   Global Notes/           # files with users' notes
   Projects/               # project descriptions and canvas
-  docs/                   # documentation: getting started, conventions, working with subagents
+  Workflows/              # BPMN-framed process diagrams (WKF-####.canvas) produced by workflow-mapper
+  docs/                   # documentation: getting started, conventions, working with subagents, workflow mapping
   
 ```
 
