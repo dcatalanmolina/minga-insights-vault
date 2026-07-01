@@ -6,6 +6,7 @@ This repo uses a specific naming pattern for markdown files. A prefix indicates 
 - `CDE-` for codes representing themes or sub-themes in the data 
 - `INS-` for insights
 - `DCN-` for decisions
+- `WKF-` for workflow canvases produced by the `workflow-mapper` agent (saved under `Workflows/`)
 
 After the prefix, a sequential 4-digit ID differentiates unique, *atomic* pieces of content. For example, two different interviews can be saved as `DAT-0001` and `DAT-0002`.
 

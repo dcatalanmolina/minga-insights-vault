@@ -22,6 +22,11 @@ Sub-agents are available in the `.agents/agents/` directory.
     <purpose>Helps the user interpret data and draft insight files by asking questions, not providing answers</purpose>
     <invoke>Invoke when user is forming an insight from observations or wants a structured review of a draft insight file</invoke>
   </subagent>
+  <subagent>
+    <name>workflow-mapper</name>
+    <purpose>Helps the user frame a business process or workflow using BPMN concepts</purpose>
+    <invoke>Invoke when user wants to learn BPMN or map/frame a business process or workflow</invoke>
+  </subagent>
 </available_subagents>
 ```
 
@@ -31,6 +36,16 @@ Local skills are available in the `.agents/skills/` directory. Skill name, descr
 
 ```html
 <available_skills>
+  <skill>
+    <name>bpmn-basics</name>
+    <description>Use when the user is new to BPMN or asks what a BPMN term or symbol means.</description>
+    <location>.agents/skills/bpmn-basics/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>frame-workflow</name>
+    <description>Use when the user wants to map or frame a business process or workflow.</description>
+    <location>.agents/skills/frame-workflow/SKILL.md</location>
+  </skill>
   <skill>
     <name>backlog-manage</name>
     <description>Use when the user wants to review, prioritize, or update the project backlog.</description>
