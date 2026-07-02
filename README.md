@@ -63,7 +63,6 @@ Every project gets a home in `Projects`, linking its data, insights, and decisio
 **New here?** Follow the [Getting Started](docs/getting-started.md) walkthrough for a step-by-step example.
 
 **Learn more:**
-- [Getting Started](docs/getting-started.md) — a step-by-step walkthrough of the full workflow
 - [Conventions](docs/conventions.md) — file naming and structure conventions
 - [Working with Subagents](docs/working-with-subagents.md) — a full `peer-reviewer` session transcript
 - [Workflow Mapping](docs/workflow-mapping.md) — how to frame a process with BPMN and the `workflow-mapper` agent
