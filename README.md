@@ -10,8 +10,8 @@
   <em>Communal knowledge, gathered.</em>
 </p>
 
-<!-- Optional: badges. Replace OWNER/REPO and delete any you don't want. -->
 <p align="center">
+  <a href="https://github.com/dcatalanmolina/minga-insights-vault/releases"><img alt="Release" src="https://img.shields.io/github/v/release/dcatalanmolina/minga-insights-vault"></a>
   <a href="https://github.com/dcatalanmolina/minga-insights-vault/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/dcatalanmolina/minga-insights-vault"></a>
   <a href="https://github.com/dcatalanmolina/minga-insights-vault/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/dcatalanmolina/minga-insights-vault"></a>
   <a href="https://github.com/dcatalanmolina/minga-insights-vault/issues"><img alt="Issues" src="https://img.shields.io/github/issues/dcatalanmolina/minga-insights-vault"></a>
@@ -19,16 +19,35 @@
 
 ---
 
-`minga-insights-vault` is an open-source vault to gather insights, influence decisions, and track strategy, powered by collaboration-first agents.
+`minga-insights-vault` is an open-source vault to gather insights, influence decisions, and track strategy, powered by collaboration-first agents. It's built on three pillars:
 
-- Use Obsidian and [Quadro](https://github.com/chrisgrieser/obsidian-quadro) (community plugin) to discover, write, and organize user and customer insights. Quadro allows you to code text from interviews, meeting notes, and other sources. 
-- The folder structure and conventions are harness-agnostic; you can use Claude Code, Codex, etc. The repo follows the [Agent Skill standard](https://agentskills.io/home) for portable skills and agents. 
+- **Free, open-source tooling for small teams.** No paid platform required — Obsidian, a handful of community plugins, and your AI harness of choice.
+- **Collaboration over automation.** Agents ask questions and name gaps instead of writing your insights for you. See the [`peer-reviewer` → `reviewer-2` pipeline](#agents--skills) for what that looks like in practice.
+- **Portable Agent Skills.** The folder structure and conventions are harness-agnostic — use Claude Code, Codex, etc. — and follow the [Agent Skill standard](https://agentskills.io/home).
+
+See the [Releases page](https://github.com/dcatalanmolina/minga-insights-vault/releases) for what's new.
 
 Get started by firing up your harness and giving it this instruction:
 
 ```
 Review the AGENTS.md file and invoke minga-host to help me get started
 ```
+
+## Agents & Skills
+
+Five collaboration-first agents ship with this repo. Each has a defined role, a set of skills, and clear constraints on what it will and won't do — the full catalog lives in [`AGENTS.md`](AGENTS.md).
+
+| Agent | Does | Invoke when |
+|---|---|---|
+| `minga-host` | Helps you understand and use the repo | You're learning how to use the vault |
+| `minga-pm` | Files bugs, scopes features, manages the backlog via GitHub Issues | You want to file a bug, scope a feature, or review the backlog |
+| `peer-reviewer` | Asks questions and names gaps while you form an insight — doesn't write it for you | You're drafting an insight or want a structured review of one |
+| `reviewer-2` | Runs Chain of Verification on a finished insight, annotating evidence gaps inline | An insight is complete and its evidence needs stress-testing |
+| `workflow-mapper` | Frames a business process using BPMN, then turns it into a canvas diagram | You want to learn BPMN or map a workflow |
+
+The `peer-reviewer` → `reviewer-2` pipeline is the clearest embodiment of the "collaborate, don't automate" pillar: `peer-reviewer` brings drafting rigor through Socratic questioning, then `reviewer-2` follows up with evidence verification, surfacing gaps as inline `COV: PASS/GAP` annotations. See a full transcript in [Working with Subagents](docs/working-with-subagents.md).
+
+Eleven skills back these agents — see the [Skill Catalog in `AGENTS.md`](AGENTS.md#skill-catalog) for the complete list.
 
 ## How to analyze and organize insights
 
@@ -38,10 +57,16 @@ Review the AGENTS.md file and invoke minga-host to help me get started
 - Create a new document under `Analysis` to take notes. Your notes will depend on the question you are answering and the themes and categories you notice inside `Codes`.
 - Synthesize your analyses by writing insights in a format that makes product development easier. 
 - Create a new canvas in `Global Notes` to organize insights and to facilitate discussion with others.
-
-Learn more about the conventions to name files [here](docs/conventions.md).
+- Record decisions supported by those insights in `Decisions` (`DCN-####`, Strategy Canvas) — this is where insights actually influence what the team does next.
+- Frame a business process as a `WKF-####.canvas` diagram in `Workflows`, produced with the `workflow-mapper` agent. Use it either as data (how a process works today) or as input to a decision (a proposed redesign).
 
 **New here?** Follow the [Getting Started](docs/getting-started.md) walkthrough for a step-by-step example.
+
+**Learn more:**
+- [Getting Started](docs/getting-started.md) — a step-by-step walkthrough of the full workflow
+- [Conventions](docs/conventions.md) — file naming and structure conventions
+- [Working with Subagents](docs/working-with-subagents.md) — a full `peer-reviewer` session transcript
+- [Workflow Mapping](docs/workflow-mapping.md) — how to frame a process with BPMN and the `workflow-mapper` agent
 
 ## About the name
 
