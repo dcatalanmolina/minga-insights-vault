@@ -49,16 +49,16 @@ The `peer-reviewer` → `reviewer-2` pipeline is the clearest embodiment of the 
 
 Eleven skills back these agents — see the [Skill Catalog in `AGENTS.md`](AGENTS.md#skill-catalog) for the complete list.
 
-## How to analyze and organize insights
+## What minga helps you do
 
-- Use the `Projects` folder to share an overview of the projects associated with data, insights, and decisions.
-- Use the `Data` folder to add new documents with interview transcripts, meeting notes, and other sources of qualitative data. Within each document, highlight paragraphs or sentences to code into different themes using Quadro's side panel. 
-- Everything you code will be automatically organized in the `Codes` folder. Quadro does this for you. You shouldn't edit documents in the `Codes` folder.
-- Create a new document under `Analysis` to take notes. Your notes will depend on the question you are answering and the themes and categories you notice inside `Codes`.
-- Synthesize your analyses by writing insights in a format that makes product development easier. 
-- Create a new canvas in `Global Notes` to organize insights and to facilitate discussion with others.
-- Record decisions supported by those insights in `Decisions` (`DCN-####`, Strategy Canvas) — this is where insights actually influence what the team does next.
-- Frame a business process as a `WKF-####.canvas` diagram in `Workflows`, produced with the `workflow-mapper` agent. Use it either as data (how a process works today) or as input to a decision (a proposed redesign).
+Every project gets a home in `Projects`, linking its data, insights, and decisions in one place. From there, minga helps with:
+
+- **Capture what customers actually said, not your summary of it.** Drop transcripts, meeting notes, and other raw sources into `Data`, so the original quote is always one click away from any theme you name.
+- **Turn scattered notes into named, reusable themes.** Highlight and code text with Quadro's side panel — it's organized into `Codes` automatically — so you can spot a pattern across ten sources instead of re-reading all ten every time.
+- **Get from a hunch to a defensible insight.** Take analysis notes in `Analysis` as themes emerge, then draft a full insight — with `peer-reviewer` questioning your framing and `reviewer-2` running Chain of Verification on the evidence — so what reaches a decision-maker can survive scrutiny.
+- **Put insights in front of the team, not stuck in a doc.** Organize them on a canvas in `Global Notes`, so you're facilitating a discussion instead of emailing a report nobody opens.
+- **Make the line from evidence to action traceable.** Record the decisions an insight supports in `Decisions` (`DCN-####`, Strategy Canvas), so anyone can trace *why* a call was made back to the research behind it.
+- **Agree on how a process actually works before redesigning it.** Map it as a `WKF-####.canvas` diagram in `Workflows` with `workflow-mapper` — as a record of today's process or a proposal for tomorrow's — so you and stakeholders start from the same picture.
 
 **New here?** Follow the [Getting Started](docs/getting-started.md) walkthrough for a step-by-step example.
 
