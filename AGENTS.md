@@ -27,6 +27,11 @@ Sub-agents are available in the `.agents/agents/` directory.
     <purpose>Helps the user frame a business process or workflow using BPMN concepts</purpose>
     <invoke>Invoke when user wants to learn BPMN or map/frame a business process or workflow</invoke>
   </subagent>
+  <subagent>
+    <name>reviewer-2</name>
+    <purpose>Applies Chain of Verification to stress-test the evidence behind a draft insight, surfacing gaps as inline annotations</purpose>
+    <invoke>Invoke when an insight file is complete and its evidence needs to be verified, or when peer-reviewer hands off a finished session</invoke>
+  </subagent>
 </available_subagents>
 ```
 
@@ -85,6 +90,11 @@ Local skills are available in the `.agents/skills/` directory. Skill name, descr
     <name>repo-tour</name>
     <description>Use when the user needs help understanding how to use the minga-insights-vault repo.</description>
     <location>.agents/skills/repo-tour/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>chain-of-verification</name>
+    <description>Use to stress-test the evidence and argument in an insight file using a Chain of Verification pass.</description>
+    <location>.agents/skills/chain-of-verification/SKILL.md</location>
   </skill>
 </available_skills>
 ```
