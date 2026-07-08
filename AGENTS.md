@@ -32,6 +32,11 @@ Sub-agents are available in the `.agents/agents/` directory.
     <purpose>Applies Chain of Verification to stress-test the evidence behind a draft insight, surfacing gaps as inline annotations</purpose>
     <invoke>Invoke when an insight file is complete and its evidence needs to be verified, or when peer-reviewer hands off a finished session</invoke>
   </subagent>
+  <subagent>
+    <name>contribution-tracer</name>
+    <purpose>Helps the user trace how their research and decisions produced outcomes and impacts over time</purpose>
+    <invoke>Invoke when the user wants to set up or check in on a contribution trace linking an insight, a decision, and its observed outcomes</invoke>
+  </subagent>
 </available_subagents>
 ```
 
@@ -95,6 +100,11 @@ Local skills are available in the `.agents/skills/` directory. Skill name, descr
     <name>chain-of-verification</name>
     <description>Use to stress-test the evidence and argument in an insight file using a Chain of Verification pass.</description>
     <location>.agents/skills/chain-of-verification/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>trace-contribution</name>
+    <description>Use when the user wants to set up a contribution trace for a decision, or check in on one already in progress.</description>
+    <location>.agents/skills/trace-contribution/SKILL.md</location>
   </skill>
 </available_skills>
 ```

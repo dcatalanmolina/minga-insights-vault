@@ -10,6 +10,8 @@ This repo uses a specific naming pattern for markdown files. A prefix indicates 
 
 After the prefix, a sequential 4-digit ID differentiates unique, *atomic* pieces of content. For example, two different interviews can be saved as `DAT-0001` and `DAT-0002`.
 
+A decision can also have a companion Canvas produced by the `contribution-tracer` agent, tracing its expected outcomes to observed check-ins over time. It shares the decision's own ID rather than a new prefix — e.g. `DCN-0001.md` pairs with `Decisions/DCN-0001.canvas`.
+
 This naming pattern enforces a *modular* structure across data, codes, insights, and decisions. Obsidian and its community plugins work best with folders that enforce a modular structure. Also, when I ran [experiments using local models](https://github.com/dcatalanmolina/uxr-local-agents), I learned that this structure works best for smaller models to retrieve files and understand repo structure. And looking to the future, using this naming convention will allow users to transition to more scalable methods to store information when the amount of data grows exponentially.
 
 ## Frontmatter Fields
