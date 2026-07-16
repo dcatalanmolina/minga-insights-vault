@@ -67,6 +67,7 @@ Every project gets a home in `Projects`, linking its data, insights, and decisio
 - [Conventions](docs/conventions.md) — file naming and structure conventions
 - [Working with Subagents](docs/working-with-subagents.md) — a full `peer-reviewer` session transcript
 - [Workflow Mapping](docs/workflow-mapping.md) — how to frame a process with BPMN and the `workflow-mapper` agent
+- [Contribution Tracing](docs/contribution-tracing.md) — how the `contribution-tracer` agent traces a decision's expected outcomes to observed check-ins
 - [Adopting This Repo for Your Team](docs/adopting-for-your-team.md) — get a private copy, share it with a GitHub Team, and pull in future releases
 - [Inspiration & Acknowledgments](docs/inspiration.md) — the frameworks, tools, and prior art this project builds on
 
