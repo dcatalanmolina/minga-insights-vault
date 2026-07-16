@@ -9,6 +9,7 @@
 | `minga-host` and `minga-pm` agents| James Dunseith, [Andamio co-founder](https://www.andamio.io/), see why [here](https://companero.substack.com/p/design-patterns-for-insight-agents). | Agents who guide and help, instead of automating tasks. |
 | `reviewer-2` agent / `chain-of-verification` skill | Loosbrock (2026), ["AI Found 11 Usability Problems Humans "Missed." Problem is…10 Were Wrong."](https://www.heykaleb.com/musings/ai-usability-problems-10-of-11-wrong). Dhuliawala et al., ["Chain-of-Verification Reduces Hallucination in Large Language Models"](https://arxiv.org/abs/2309.11495) (2023) | The draft → generate verification questions → check each independently → flag gaps pattern used to stress-test insight evidence. |
 | `workflow-mapper` agent / `bpmn-basics` skill | [BPMN 2.0 specification](https://www.omg.org/spec/BPMN/2.0/About-BPMN/) (OMG); practical reference used day-to-day: [Camunda's BPMN reference](https://camunda.com/bpmn/reference/) | The vocabulary (events, tasks, gateways, pools/lanes) used to frame and diagram business processes. |
+| `contribution-tracer` agent / `trace-contribution` skill | Befani, B. (2016), ["Pathways to Change: Evaluating Development Interventions with QCA and Contribution Tracing"](https://onlinelibrary.wiley.com/doi/abs/10.1111/1759-5436.12110) | The forward-tracing logic (expected outcomes → falsifiable signals → observed check-ins) used to link a decision to what actually happened. |
 
 
 ## Tools & standards
