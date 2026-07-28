@@ -37,6 +37,11 @@ Sub-agents are available in the `.agents/agents/` directory.
     <purpose>Helps the user trace how their research and decisions produced outcomes and impacts over time</purpose>
     <invoke>Invoke when the user wants to set up or check in on a contribution trace linking an insight, a decision, and its observed outcomes</invoke>
   </subagent>
+  <subagent>
+    <name>decision-guide</name>
+    <purpose>Helps the user reason toward a decision recommendation from insights and evidence, using decision-analysis techniques matched to their stage in the process</purpose>
+    <invoke>Invoke when the user wants to work through framing options, comparing alternatives, or stress-testing a leaning before committing to a decision</invoke>
+  </subagent>
 </available_subagents>
 ```
 
@@ -105,6 +110,21 @@ Local skills are available in the `.agents/skills/` directory. Skill name, descr
     <name>trace-contribution</name>
     <description>Use when the user wants to set up a contribution trace for a decision, or check in on one already in progress.</description>
     <location>.agents/skills/trace-contribution/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>frame-decision</name>
+    <description>Use when the user is framing a decision and needs to generate objectives and options before comparing anything — the earliest stage of the decision-making process.</description>
+    <location>.agents/skills/frame-decision/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>compare-options</name>
+    <description>Use when the user has a defined set of alternatives and needs to weigh them against criteria and evidence — the evaluating stage of the decision-making process.</description>
+    <location>.agents/skills/compare-options/SKILL.md</location>
+  </skill>
+  <skill>
+    <name>stress-test-decision</name>
+    <description>Use when the user has a leaning or near-final decision and wants to pressure-test it before committing — the stress-testing stage of the decision-making process.</description>
+    <location>.agents/skills/stress-test-decision/SKILL.md</location>
   </skill>
 </available_skills>
 ```
