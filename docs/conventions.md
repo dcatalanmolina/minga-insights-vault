@@ -35,3 +35,4 @@ This naming pattern enforces a *modular* structure across data, codes, insights,
 ### Decisions
 - `insights`: A list of links to insights supporting the decision.
 - `project`: A link to the corresponding project, `"[[Project A - Overview]]"`.
+- `status`: Optional. Set to `draft` while a decision is still being worked through with the `decision-guide` agent. Remove the field once the user finalizes the decision.
