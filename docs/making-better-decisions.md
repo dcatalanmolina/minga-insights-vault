@@ -2,7 +2,7 @@
 
 Insights don't turn into decisions by themselves. Someone still has to weigh what matters, generate real alternatives, compare them against evidence, and pressure-test a leaning before committing — and that reasoning is usually done alone, informally, with no record of how the call was actually made. The `decision-guide` agent fills that gap.
 
-Like the rest of this repo's agents, it collaborates rather than automates: it asks questions and applies a named framework at each stage, but it never writes the decision statement, picks the winning option, or declares a recommendation "correct" on your behalf. You do the reasoning; it structures it.
+Like the rest of this repo's agents, it collaborates rather than automates: it asks questions and applies a named framework at each stage, but it never writes the decision statement, picks the winning option, or declares a recommendation "correct" on your behalf. You do the reasoning; the agent structures it.
 
 ## The `decision-guide` agent
 
