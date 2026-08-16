@@ -35,7 +35,7 @@ Review the AGENTS.md file and invoke minga-host to help me get started
 
 ## Agents & Skills
 
-Six collaboration-first agents ship with this repo. Each has a defined role, a set of skills, and clear constraints on what it will and won't do — the full catalog lives in [`AGENTS.md`](AGENTS.md).
+Seven collaboration-first agents ship with this repo. Each has a defined role, a set of skills, and clear constraints on what it will and won't do — the full catalog lives in [`AGENTS.md`](AGENTS.md).
 
 | Agent | Does | Invoke when |
 |---|---|---|
@@ -44,6 +44,7 @@ Six collaboration-first agents ship with this repo. Each has a defined role, a s
 | `peer-reviewer` | Asks questions and names gaps while you form an insight — doesn't write it for you | You're drafting an insight or want a structured review of one |
 | `reviewer-2` | Runs Chain of Verification on a finished insight, annotating evidence gaps inline | An insight is complete and its evidence needs stress-testing |
 | `workflow-mapper` | Frames a business process using BPMN, then turns it into a canvas diagram | You want to learn BPMN or map a workflow |
+| `decision-guide` | Helps you reason toward a decision recommendation from insights and evidence, using frameworks matched to your stage | You're framing options, comparing alternatives, or stress-testing a decision before committing |
 | `contribution-tracer` | Traces a decision's expected outcomes to observed check-ins over time | You want to track how much your research contributed to a business outcome |
 
 The `peer-reviewer` → `reviewer-2` pipeline is the clearest embodiment of the "collaborate, don't automate" pillar: `peer-reviewer` brings drafting rigor through Socratic questioning, then `reviewer-2` follows up with evidence verification, surfacing gaps as inline `COV: PASS/GAP` annotations. See a full transcript in [Working with Subagents](docs/working-with-subagents.md).
@@ -67,6 +68,7 @@ Every project gets a home in `Projects`, linking its data, insights, and decisio
 - [Conventions](docs/conventions.md) — file naming and structure conventions
 - [Working with Subagents](docs/working-with-subagents.md) — a full `peer-reviewer` session transcript
 - [Workflow Mapping](docs/workflow-mapping.md) — how to frame a process with BPMN and the `workflow-mapper` agent
+- [Making Better Decisions](docs/making-better-decisions.md) — how to frame, compare, and stress-test a decision with the `decision-guide` agent
 - [Contribution Tracing](docs/contribution-tracing.md) — how the `contribution-tracer` agent traces a decision's expected outcomes to observed check-ins
 - [Adopting This Repo for Your Team](docs/adopting-for-your-team.md) — get a private copy, share it with a GitHub Team, and pull in future releases
 - [Inspiration & Acknowledgments](docs/inspiration.md) — the frameworks, tools, and prior art this project builds on
