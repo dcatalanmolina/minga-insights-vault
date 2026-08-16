@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "deny": [
+      "Edit(Codes/**)",
+      "Edit(Data/**)",
+      "Write(Codes/**)",
+      "Write(Data/**)",
+      "NotebookEdit(Codes/**)",
+      "NotebookEdit(Data/**)"
+    ]
+  }
+}
