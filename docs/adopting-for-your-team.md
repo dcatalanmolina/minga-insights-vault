@@ -22,6 +22,18 @@ You now have a private repo with full history, unconnected to GitHub's fork netw
 
 **Alternative:** if a "Use this template" button is ever added to this repo, that also produces a repo of your chosen visibility, but starts from a single fresh commit with no shared history. That makes step 3 (pulling updates) much harder, so the mirror method above is preferred if you plan to stay in sync with future releases.
 
+### Native skill discovery on Claude Code
+
+`.agents/skills/` is this repo's canonical skill location — the cross-client convention defined by the [Agent Skill standard](https://agentskills.io/home), and where every harness should expect to find skill definitions. Claude Code additionally offers native discovery (slash-command invocation, autocomplete, hot-reload) for skills it finds under `.claude/skills/`, so the repo ships `.claude/skills` as a symlink to `.agents/skills` — one source of truth, discoverable both ways.
+
+On macOS and Linux, this just works after cloning: Git checks out the symlink and Claude Code follows it. On Windows, Git only creates a real symlink if `core.symlinks` is enabled *and* you have permission to create symlinks (Developer Mode, or an elevated clone) — otherwise the checkout produces a plain text file containing the link path instead of a working symlink, and native discovery silently won't work. If that happens, either re-clone with `git config --global core.symlinks true` and Developer Mode on, or recreate the link by hand from the repo root:
+
+```powershell
+New-Item -ItemType SymbolicLink -Path .claude\skills -Target .agents\skills
+```
+
+Harnesses other than Claude Code aren't affected either way — they read skills from `.agents/skills/` directly, per AGENTS.md's catalog.
+
 ## 2. Share it with your Team
 
 Grant access the normal GitHub way — this is unrelated to which cloning method you used above:
