@@ -10,4 +10,6 @@ Reviewed `Global Notes/Platform Updates Brief - 2026-07.md` (an untracked file w
 - Filed **#32** (Item 5a — package the agent layer as an installable plugin) to the general backlog, unmilestoned — relevant long-term but not a current pilot blocker.
 - Left Items 2, 3, 5b, 5c out entirely (internal architecture/automation, not onboarding-relevant) — still sitting in the brief file if revisited later.
 
-Backlog snapshot: `Beta` milestone has #30, #31 open. Unmilestoned/backlog: #25, #26, #32. `Global Notes/Platform Updates Brief - 2026-07.md` is still untracked/uncommitted in the repo — worth asking the user whether to commit it or leave it as a personal working note.
+User confirmed the brief file itself should stay personal/untracked, but asked to log its remaining items (2, 3, 5b, 5c) as backlog issues so nothing is lost if the note is ever deleted. Filed: #33 (Item 3 — persona vs. subagent classification), #34 (Item 2 — native `memory: project`, depends on #33), #35 (Item 5c — generated AGENTS.md catalog from SKILL.md metadata, prerequisite polish for #32), #36 (Item 5b — scheduled contribution-tracer check-in routine). All `backlog`, unmilestoned.
+
+Backlog snapshot: `Beta` milestone has #30, #31 open (pilot-onboarding focus). Unmilestoned/backlog: #25, #26, #32, #33, #34, #35, #36. `Global Notes/Platform Updates Brief - 2026-07.md` remains untracked by design — its full content is now preserved across GitHub issues, safe to delete or keep as a personal note.
