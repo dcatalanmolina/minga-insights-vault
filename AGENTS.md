@@ -154,4 +154,4 @@ minga-insights-vault/     # top directory
 - Propose changes and seek approval from the user before implementing changes.
 
 ## Must Never
-- Edit files in the `Codes/` or `Data/` directories
+- Edit files in the `Codes/` or `Data/` directories. On Claude Code, this is mechanically enforced — `.claude/settings.json` denies `Edit`/`Write`/`NotebookEdit` on `Codes/**` and `Data/**` at the tool-permission layer, so a violation is blocked outright rather than merely discouraged. Other harnesses should treat this line as the enforceable rule until they have an equivalent mechanism.
