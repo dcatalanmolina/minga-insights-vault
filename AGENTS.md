@@ -16,6 +16,7 @@ This block is generated from each agent's own frontmatter (`.agents/agents/*.md`
     <invoke>Invoke when the user wants to set up or check in on a contribution trace linking an insight, a decision, and its observed outcomes</invoke>
     <skills>
       <skill>trace-contribution</skill>
+      <skill>contribution-checkin-scan</skill>
     </skills>
   </subagent>
   <subagent>
@@ -94,6 +95,14 @@ This block is generated from each skill's own frontmatter (`.agents/skills/*/SKI
     <agent>contribution-tracer</agent>
     <stage>trace</stage>
     <interactive>true</interactive>
+  </skill>
+  <skill>
+    <name>contribution-checkin-scan</name>
+    <description>Scans open decision traces for signals that have never been checked in on and drafts a note listing what to ask next, without writing to any canvas. Built to run unattended (scheduled), but can also be invoked directly.</description>
+    <location>.agents/skills/contribution-checkin-scan/SKILL.md</location>
+    <agent>contribution-tracer</agent>
+    <stage>scan</stage>
+    <interactive>false</interactive>
   </skill>
   <skill>
     <name>frame-decision</name>
