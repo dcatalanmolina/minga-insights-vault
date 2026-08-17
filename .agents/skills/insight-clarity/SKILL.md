@@ -1,6 +1,10 @@
 ---
 name: insight-clarity
 description: Use when asked to review the clarity of an insight file.
+metadata:
+  minga-agent: peer-reviewer
+  minga-stage: review
+  minga-interactive: false
 ---
 
 # Task: Clarity Review

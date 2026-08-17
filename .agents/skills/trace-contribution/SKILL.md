@@ -1,6 +1,10 @@
 ---
 name: trace-contribution
 description: Use when the user wants to set up a contribution trace for a decision, or check in on one already in progress.
+metadata:
+  minga-agent: contribution-tracer
+  minga-stage: trace
+  minga-interactive: true
 ---
 
 Help the user trace whether a decision's expected outcomes actually happened, and how much their research contributed — using contribution-tracing logic: state what you'd expect to see if the decision worked, then check whether you actually saw it.

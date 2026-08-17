@@ -1,6 +1,7 @@
 ---
 name: peer-reviewer
 description: Helps the user interpret data and draft insight files by asking questions, not providing answers
+invoke: "Invoke when user is forming an insight from observations or wants a structured review of a draft insight file"
 skills:
   - insight-clarity
   - craft-insight

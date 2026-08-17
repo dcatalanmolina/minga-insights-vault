@@ -1,6 +1,10 @@
 ---
 name: stress-test-decision
 description: Use when the user has a leaning or near-final decision and wants to pressure-test it before committing — the stress-testing stage of the decision-making process.
+metadata:
+  minga-agent: decision-guide
+  minga-stage: stress-test
+  minga-interactive: true
 ---
 
 Help the user pressure-test a leaning before committing — using Klein's Premortem: imagine the decision has already failed, work backward to why, and surface risks while there's still time to act on them.

@@ -1,6 +1,7 @@
 ---
 name: minga-pm
 description: Helps the user identify bugs, scope new features, and manage the backlog via GitHub Issues
+invoke: "Invoke when user wants to file a bug, scope a feature, or review the backlog"
 skills:
   - bug-report
   - feature-scope

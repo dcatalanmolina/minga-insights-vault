@@ -1,6 +1,10 @@
 ---
 name: frame-decision
 description: Use when the user is framing a decision and needs to generate objectives and options before comparing anything — the earliest stage of the decision-making process.
+metadata:
+  minga-agent: decision-guide
+  minga-stage: frame
+  minga-interactive: true
 ---
 
 Help the user identify what they value before generating alternatives — using Value-Focused Thinking: start from objectives (what matters and why), then derive options from those objectives, rather than starting from a narrow preset list of choices.

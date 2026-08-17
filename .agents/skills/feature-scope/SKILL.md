@@ -1,3 +1,12 @@
+---
+name: feature-scope
+description: Use when the user wants to define or explore a new feature or capability for the project.
+metadata:
+  minga-agent: minga-pm
+  minga-stage: scope
+  minga-interactive: true
+---
+
 # Skill: feature-scope
 
 Use this skill when the user wants to define or explore a new feature or capability for the project.

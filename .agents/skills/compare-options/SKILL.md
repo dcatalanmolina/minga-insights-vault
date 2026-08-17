@@ -1,6 +1,10 @@
 ---
 name: compare-options
 description: Use when the user has a defined set of alternatives and needs to weigh them against criteria and evidence — the evaluating stage of the decision-making process.
+metadata:
+  minga-agent: decision-guide
+  minga-stage: compare
+  minga-interactive: true
 ---
 
 Help the user weigh alternatives against criteria and evidence — using Kepner-Tregoe Decision Analysis: separate MUST criteria (disqualifying) from WANT criteria (weighted), score the remaining alternatives, and surface adverse consequences before committing.

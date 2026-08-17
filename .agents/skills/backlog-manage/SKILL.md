@@ -1,3 +1,12 @@
+---
+name: backlog-manage
+description: Use when the user wants to review, prioritize, or update the project backlog.
+metadata:
+  minga-agent: minga-pm
+  minga-stage: triage
+  minga-interactive: false
+---
+
 # Skill: backlog-manage
 
 Use this skill when the user wants to review, prioritize, or update the project backlog.

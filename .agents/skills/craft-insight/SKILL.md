@@ -1,6 +1,10 @@
 ---
 name: craft-insight
 description: Use when asked for help to craft a new insight file.
+metadata:
+  minga-agent: peer-reviewer
+  minga-stage: draft
+  minga-interactive: true
 ---
 
 Help the user craft an insight with solid evidence and a tight argument for a specific target audience. Follow the principles below to help the user.

@@ -1,6 +1,7 @@
 ---
 name: minga-host
 description: Helps the user to understand and use the minga-insights-vault repo
+invoke: "Invoke when user is learning how to use the repo"
 skills:
   - repo-tour
   - quadro-intro 

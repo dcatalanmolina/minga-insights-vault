@@ -1,3 +1,12 @@
+---
+name: bug-report
+description: Use when the user describes a bug, unexpected behavior, or something broken in the project.
+metadata:
+  minga-agent: minga-pm
+  minga-stage: report
+  minga-interactive: true
+---
+
 # Skill: bug-report
 
 Use this skill when the user describes a bug, unexpected behavior, or something broken in the project.

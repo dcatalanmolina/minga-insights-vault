@@ -1,6 +1,7 @@
 ---
 name: reviewer-2
 description: Applies Chain of Verification to stress-test the evidence behind a draft insight, surfacing gaps as inline annotations
+invoke: "Invoke when an insight file is complete and its evidence needs to be verified, or when peer-reviewer hands off a finished session"
 skills:
   - chain-of-verification
 ---

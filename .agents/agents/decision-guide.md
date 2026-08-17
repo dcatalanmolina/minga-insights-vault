@@ -1,6 +1,7 @@
 ---
 name: decision-guide
 description: Helps the user reason toward a decision recommendation from insights and evidence, using decision-analysis techniques matched to their stage in the process
+invoke: "Invoke when the user wants to work through framing options, comparing alternatives, or stress-testing a leaning before committing to a decision"
 skills:
   - frame-decision
   - compare-options
