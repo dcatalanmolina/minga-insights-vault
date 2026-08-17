@@ -1,12 +1,12 @@
 # minga-pm — Last Session
 
 **Date:** 2026-08-17
-**Summary:** Confirmed with the user that #25, #35, #36 being in the `Beta` milestone (a discrepancy vs. prior memory, which had logged them unmilestoned) is intentional — kept as-is. Refined scope on #35 (AGENTS.md catalog generation) and #36 (scheduled contribution-tracer check-in routine) via `feature-scope`:
-- **#35**: resolved both open questions — the hand-maintained `<available_skills>` catalog is to be retired *entirely* (not just its metadata columns), and the #30 sequencing question is moot since #30 shipped via PR #37. Added an explicit acceptance criterion for full catalog replacement.
-- **#36**: resolved the paid-plan open question — a local `/loop`-based routine is now the *required* default mechanism (not an optional fallback), since target adopters (pilot orgs) may not have a paid cloud-agents plan. Cloud-agents support is now framed as a documented alternative, not the primary path.
+**Summary:** Confirmed #25/#35/#36 belong in `Beta` (a discrepancy vs. prior memory — kept as intentional per user). Refined scope on #35 and #36 via `feature-scope` (see prior entry below for details), then the user asked to move to implementation — stepped out of `minga-pm` into regular Claude Code, same boundary as #30/#31.
 
-Both edits were held for ~40 minutes waiting out a GitHub partial system outage (Issues + Git Operations degraded, per githubstatus.com) before pushing — confirmed resolved (API Requests/CLI explicitly called out as unaffected even during the tail-end Copilot-auth-specific residual impact) before editing. Both #35 and #36 pushed successfully and verified.
+Both shipped and merged into `main` today:
+- **#35** (PR #38): `scripts/skills_ref.py` now generates `AGENTS.md`'s Sub-Agent/Skill catalogs from frontmatter (`metadata.minga-agent`/`minga-stage`/`minga-interactive` on every `SKILL.md`, `invoke` on every agent `.md`). CI (`skills-ref` workflow) validates no drift/broken cross-refs on every PR.
+- **#36** (PR #39): new `contribution-checkin-scan` skill drafts check-in notes for stale/never-checked traces without writing to any canvas; documented as a local `claude --bg` + `/loop` background routine by default (with the honest caveat that `ScheduleWakeup`'s 1-hour clamp makes a "monthly" cadence ~720 mostly-noop hourly checks, not one sleep), with the cloud `schedule` skill documented as the paid-plan alternative.
 
-**Next:** User asked to move to implementation on #35 and #36. Same as #30/#31 last time — this is hands-on engineering, outside minga-pm's PM/backlog charter, so stepping out of this persona; implementation continues as regular Claude Code. Re-invoke `minga-pm` for the next PM/backlog-scoped session.
+**Beta milestone status: 4/5 closed** (#30, #31, #35, #36). Only **#25** (Quant insights integration) remains open — untouched this session, no scoping done on it yet.
 
-`Beta` milestone status at handoff: #30, #31 closed; #25, #35, #36 open (all in Beta, confirmed intentional). Unmilestoned backlog unchanged: #26, #32, #33, #34.
+**Next:** Pick up with #25 when the user wants to scope or implement it, or check whether pilot-org onboarding has surfaced anything new to add to `Beta`. Still don't close the `Beta` milestone unprompted — wait for the user to say onboarding is settled.
