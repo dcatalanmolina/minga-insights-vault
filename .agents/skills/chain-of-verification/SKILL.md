@@ -1,6 +1,10 @@
 ---
 name: chain-of-verification
 description: Use to stress-test the evidence and argument in an insight file using a Chain of Verification pass.
+metadata:
+  minga-agent: reviewer-2
+  minga-stage: verify
+  minga-interactive: false
 ---
 
 # Task: Chain of Verification

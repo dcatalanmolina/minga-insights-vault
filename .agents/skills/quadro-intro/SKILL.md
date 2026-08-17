@@ -1,6 +1,10 @@
 ---
 name: quadro-intro
 description: Use when the user needs help understanding how to use Quadro (Obsidian plugin) to code qualitative data.
+metadata:
+  minga-agent: minga-host
+  minga-stage: tool-intro
+  minga-interactive: true
 ---
 
 Help the user to code data using Quadro by following the principles and reference below.

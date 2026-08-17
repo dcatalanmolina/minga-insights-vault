@@ -1,6 +1,10 @@
 ---
 name: bpmn-basics
 description: Use when the user is new to BPMN or asks what a BPMN term or symbol means.
+metadata:
+  minga-agent: workflow-mapper
+  minga-stage: orient
+  minga-interactive: false
 ---
 
 Help the user understand BPMN (Business Process Model and Notation) well enough to describe their own process in its terms. Follow the principles below.

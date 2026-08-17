@@ -1,6 +1,10 @@
 ---
 name: workflow-canvas
 description: Use when the user has a confirmed workflow outline (from frame-workflow) and wants it turned into a visual diagram.
+metadata:
+  minga-agent: workflow-mapper
+  minga-stage: diagram
+  minga-interactive: false
 ---
 
 Turn a confirmed workflow outline into an Obsidian Canvas file, using the BPMN-approximation convention below. Draft the structure, show the user a summary, and get their approval before writing the file.

@@ -1,6 +1,10 @@
 ---
 name: repo-tour
 description: Use when the user needs help understanding how to use the minga-insights-vault repo.
+metadata:
+  minga-agent: minga-host
+  minga-stage: orient
+  minga-interactive: true
 ---
 
 Help the user to get started with the repo by following the instructions below.

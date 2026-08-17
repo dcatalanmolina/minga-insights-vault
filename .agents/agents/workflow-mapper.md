@@ -1,6 +1,7 @@
 ---
 name: workflow-mapper
 description: Helps the user frame a business process or workflow using BPMN concepts
+invoke: "Invoke when user wants to learn BPMN or map/frame a business process or workflow"
 skills:
   - bpmn-basics
   - frame-workflow

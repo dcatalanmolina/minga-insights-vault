@@ -1,6 +1,7 @@
 ---
 name: contribution-tracer
 description: Helps the user trace how their research and decisions produced outcomes and impacts over time
+invoke: "Invoke when the user wants to set up or check in on a contribution trace linking an insight, a decision, and its observed outcomes"
 skills:
   - trace-contribution
 ---
